@@ -64,4 +64,7 @@ function k(spiller, nummer){
   while true {
     new total = total - nummer;
   }
+
 }
+
+console.log("hei")

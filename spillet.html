@@ -1,0 +1,40 @@
+<!<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script type=text/javascript src="js/nim.js"></script>
+    <script type=text/javascript src="js/game.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <title>Game on!</title>
+  </head>
+  <body onload="program()">
+    <h1>NIM</h1>
+    <div id="wrap">
+
+      <div class="player player_1">
+        <h3>Player 1</h3>
+          <button onclick="k(1,1);">Knapp 1</button>
+          <button onclick="k(1,2);">Knapp 2</button>
+          <button onclick="k(1,3);">Knapp 3</button>
+      </div>
+
+      <div class="nedtelling player">
+        <p>Antall klinkekuler<br>igjen:</p>
+      </div>
+
+      <div class="nedtelling player total">
+        <b><p id = "total2"></p></b>
+      </div>
+
+      <div class="player player_2">
+        <h3>Player 2</h3>
+          <button onclick="k(2, 1);">Knapp 1</button><br>
+          <button onclick="k(2, 2);">Knapp 2</button><br>
+          <button onclick="k(2, 3);">Knapp 3</button><br>
+      </div>
+
+    </div>
+    <br><br><p>Gå tilbake til forsiden <a href="index.html">her.</a></p>
+  </body>
+</html>

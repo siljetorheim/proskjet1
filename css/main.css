@@ -1,0 +1,73 @@
+body { /* NOTE: bakgrunn begge sider */
+  background-color: #1F023F;
+  font-family: helvetica;
+  padding: 20px 20px
+}
+
+div { /* NOTE: tekstfarge */
+  color: white;
+}
+
+div a { /* NOTE: start spill knappen */
+  display: block;
+  background-color: #9EFF9E;
+  text-decoration: none;
+  color: black;
+  max-width: 50%;
+  text-align: center;
+  padding: 20px 20px;
+
+
+}
+
+h1 { /* NOTE: hovedoverskrift begge sider */
+  display: block;
+  color: white;
+  text-align: center;
+}
+
+div h1{
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+/* NOTE: Knappene på spill siden */
+#wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.player {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.player_1 {
+
+  align-self: flex-start;
+
+}
+
+.player_2 {
+
+  align-self: flex-end;
+
+}
+
+p {
+  color: white;
+}
+
+.nedtelling {
+  align-self: flex-end;
+  flex-direction: column;
+}
+
+.total {
+
+}
+
+
+<meta name="viewport" content= "width=device-width, initial-scale=1.0">
